@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33617.297
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCatalog - Practice Quest", "MovieCatalog - Practice Quest\MovieCatalog - Practice Quest.csproj", "{52B0499D-4813-4A15-83B6-4F056819BF59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCatalogTests", "MovieCatalogTests\MovieCatalogTests.csproj", "{40D0DC2F-1799-47D6-B90C-49864FD49193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{52B0499D-4813-4A15-83B6-4F056819BF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B0499D-4813-4A15-83B6-4F056819BF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B0499D-4813-4A15-83B6-4F056819BF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D0DC2F-1799-47D6-B90C-49864FD49193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D0DC2F-1799-47D6-B90C-49864FD49193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D0DC2F-1799-47D6-B90C-49864FD49193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D0DC2F-1799-47D6-B90C-49864FD49193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

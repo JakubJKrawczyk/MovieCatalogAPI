@@ -8,19 +8,11 @@ namespace MovieCatalog___Practice_Quest.Database
     public class AppDbContext : DbContext
     {
 
-        public DbSet<Movie> Movies { get; set; } = null;
+        public DbSet<Movie> Movies { get; private set; } = null!;
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public AppDbContext(DbContextOptions options) : base(options)
         {
-            optionsBuilder.UseInMemoryDatabase("MovieCatalog");
-        }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-
-            base.OnModelCreating(modelBuilder);
-
-           
-
+                
         }
     }
 }
