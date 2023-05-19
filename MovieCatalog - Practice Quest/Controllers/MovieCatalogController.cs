@@ -31,8 +31,7 @@ namespace MovieCatalog___Practice_Quest.Controllers
         }
 
         [HttpGet("/last")]
-        [SwaggerResponse((int)HttpStatusCode.NoContent, Description = "Database is empty")]
-        [SwaggerResponse((int)HttpStatusCode.OK, Description = "Success")]
+        
         public async Task<Movie> GetLastMovie() => (await _movieService.GetLastAddedMovie())!;
         
 
